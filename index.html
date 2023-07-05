@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+
+    <nav>
+    <h1>Calculadora</h1>
+    </nav>
+
+<main>
+    <div id="screen"></div>
+    
+    <section>
+        
+        <button class="btn-num" onclick="insert(1)">1</button>
+        <button class="btn-num" onclick="insert(2)">2</button>
+        <button class="btn-num" onclick="insert(3)">3</button>
+        <button class="btn-operator" onclick="insert('/')">÷</button>
+        <button class="btn-num" onclick="insert(4)">4</button>
+        <button class="btn-num" onclick="insert(5)">5</button>
+        <button class="btn-num" onclick="insert(6)">6</button>
+        <button class="btn-operator" onclick="insert('*')">×</button>
+        <button class="btn-num" onclick="insert(7)">7</button>
+        <button class="btn-num" onclick="insert(8)">8</button>
+        <button class="btn-num" onclick="insert(9)">9</button>
+        <button class="btn-operator" onclick="insert('+')">+</button>
+        <button class="btn-clean" onclick="clean()">AC</button>
+        <button class="btn-num" onclick="insert(0)">0</button>
+        <button class="btn-operator" onclick="insert('.')">.</button>
+        <button class="btn-operator" onclick="insert('-')">-</button>
+        <button class="btn-del" onclick="del()">DEL</button>
+        <button class="btn-send" onclick="calc()">=</button>
+
+
+    </table>
+
+    </section>
+</main>
+    <script src="main.js"></script>
+</body>
+<footer>Desenvolvido por Flavio Santana - 2023</footer>
+</html>

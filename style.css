@@ -1,0 +1,132 @@
+* {
+    margin:auto;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgb(20, 20, 20);
+    height: 70px;
+    padding: 10px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+nav h1 {
+    box-sizing: border-box;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav {
+        height: 40px;
+    }
+    nav h1 {
+        font-size: 1.75rem;
+        animation: typing 15s steps(50);
+    }
+}
+
+main {
+    height: 100vh;
+    width: 200vh;
+    padding: 0px 0;
+}
+
+section {
+    height: 500px;
+    width: 360px;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#screen {
+    color: white;
+    background: linear-gradient(151deg,#31465c 3%, #49617c 100%);
+    width: 350px;
+    min-height: 80px;
+    margin: 30px auto;
+    border-radius: 15px;
+    text-align: right;
+    padding: 2px;
+    font-size: 2.75rem;
+    overflow-wrap: break-word;
+}
+
+button {
+    font-size: 2rem;
+    color:black;
+    cursor: pointer;
+    border: 0;
+    box-shadow: white;
+    border-radius: 10px;
+    height: 100px;
+    touch-action: manipulation;
+    margin: 2px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: 50ms linear;
+}
+
+.btn-num {
+    background-color: #467495;
+}
+
+.btn-operator {
+    background-color:#ffffff;
+}
+
+.btn-clean {
+    background-color: rgb(74, 116, 165);
+    font-size: medium;
+
+}
+
+.btn-del {
+    grid-column: 1/3;
+    background-color: #243145;
+    font-size: medium;
+}
+
+.btn-send {
+    color: black;
+    grid-column: 3/5
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    section {
+        width: 270px;
+        height: 150px;
+    }
+}
+
+footer {
+    background-color:rgb(20, 20, 20);
+    padding: 1.5rem;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight:100;
+    color: white;
+}
+
+@media screen and (max-width: 680px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+}
