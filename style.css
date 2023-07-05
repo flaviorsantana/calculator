@@ -4,8 +4,8 @@
 }
 
 body {
+    display: grid;
     background-color: black;
-    box-sizing: border-box;
 }
 
 nav {
