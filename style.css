@@ -13,8 +13,9 @@ body {
 
 nav {
     background-color: rgb(20, 20, 20);
+    border-radius: 20px;
     height: 70px;
-    padding: 10px;
+    padding: 8px;
     font-family: 'Rubik', sans-serif;
     color: white;
 }
@@ -118,6 +119,7 @@ button:hover {
 
 footer {
     background-color:rgb(20, 20, 20);
+    border-radius: 20px;
     padding: 1.5rem;
     text-align: center;
     font-family: 'Rubik', sans-serif;
