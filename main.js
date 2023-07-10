@@ -9,7 +9,7 @@ function clean(){
 }
 
 function del(){
-    screen.innerHTML = screen.innerHTML.slice(0,0);
+    screen.innerHTML = screen.innerHTML.slice(0,0)
 }
 
 function calc() {
