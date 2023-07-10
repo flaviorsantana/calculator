@@ -9,5 +9,3 @@
 ## Feito por:
 
 ### Flavio Santana
-
-https://flaviorsantana.github.io/calculator/
